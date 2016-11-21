@@ -3,3 +3,165 @@
 *{
     outline: 1px solid rgba(255,0,0,0.3)
 } 
+/* HEADER------------------------------------------------- */
+.menu {
+    
+    background-color:#FFFFFF;
+    color: #333;
+    text-align: center;
+    
+}
+
+
+.list-menu a {
+
+    list-style: none;
+    text-decoration: none;
+    color: black;   
+}
+
+.list-menu li{
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* FONDO------------------------------------------------ */
+
+.fondo{
+    background-image: url(../img/dance_1.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.fondo .afilado{
+    float: left;
+    width: 200px;
+    height: 200px;
+    color: gainsboro;
+    margin: 80px;
+    }
+
+.studio{
+    font-size:80px;
+    width: 100%;
+}
+
+
+button {   
+
+     font-size:12px;
+     color:white;
+     background:#1E2037;
+     border:0px;
+     width:100px;
+     height:32px;
+    margin: 30px;
+}
+
+/* FRASES------------------------------------------------ */
+
+
+.frases {
+    text-align: center;
+    font-size: 25px;
+    padding: 45px;
+    background-image: url(../img/textura_2.jpg);
+    
+}
+
+.frases img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+   
+}
+
+.boton2{
+    font-size:20px;
+     color:white;
+     background:#1E2037;
+     border-radius: 20px;
+     width:300px;
+     height:100px;
+    margin: 30px;
+    
+}
+
+/* Profes------------------------------------------------ */
+
+.titulo{
+    font-size:20px;
+     color:white;
+     background:#1E2037;
+     width:200px;
+     height:50px;
+    margin: 30px;
+    text-align: center;
+    margin: auto;
+   
+    
+}
+
+.box{
+    padding: 0;
+}
+
+
+.uno{
+    background-image: url(../img/instructor_4.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    
+   
+}
+
+.dos{
+    background-image: url(../img/profesor_9.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+ }
+
+/* Profes------------------------------------------------ */
+
+.fonddo {
+    background-color: #1E2037;
+    padding: 45px;
+    color: gainsboro;
+}
+
+.contactenos{
+    background-image: url(../img/shoes_1.jpg);
+    background-size: contain;
+    width: 100%;
+    
+    
+    
+    
+    
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
