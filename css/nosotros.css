@@ -3,12 +3,13 @@
 }
 /*---------------------------------inicio---de----mi---header-----*/
 header {
-    color:#6947FE;
+    color:#224E88;
     text-align: center;
 }
 .lista-menu li{
     font-size:18px;
-    margin: 30px;;
+    margin: 15px;
+    margin-right: 100px;
     list-style: none;
     display: inline-block;
 
@@ -20,38 +21,62 @@ header {
 
 /*--------------mi primer section ---*/
 
+
 .primer-section{
     background-image: url(../img/dance_7.jpg);
     width: 100%;
-    height: 400px;
+    height: 460px;
     background-position:left;
+    background-size: 100%;
 }
 .mi-texto{
-    padding: 15px;
     position: relative;
     left:40%;
-    top:110px;
-    opacity: 0.7;
-    background:rgb(173,172,177);
+    top:115px;
+    opacity: 0.5;
+    background:black;
     color: white;
-    width: 330px;
+    width: 430px;
+}
+.primer-section h2{
+   padding: 10px
+}
+.primer-section p{
+    font-size: 18px;
+    padding: 12px
 }
 
 /*-------mi  section ----dos---*/
 .segundo-section{
-    background-image: url(../img/cubes.png)
+     padding: 65px;
+    background-image: url(../img/cubes.png);
 }
 
 .col-md-4{
     text-align: center;
-    padding: 35px;
-    font-size: 12px;
     color: #B1B2B1;
 }
+.segundo-section h3{
+    font-size:22px;
+    font-family:Consolas;
+}
+.segundo-section p{
+    font-size: 16px;
+}
+.segundo-section hr{
+   width: 250px ;
+    border: 1px solid #B1B2B1;
+}
 /*----------------------------------------------mi---tercer-----SECTION----*/
+
+.imagen {
+    overflow: hidden;
+    height: 180px;
+    width: 100%;
+}
 .tercer-section img{
-    width: 90%;
-    height: 200px;
+    width: 100%;
+    height: 230px;
 }
 .tercer-section{
     padding: 30px;
@@ -60,8 +85,38 @@ header {
 .tercer-section h2{
     margin: 25px;
 }
-/*---------------------------mi---cuarta section----*/
-.container-cuarto{
- background-image: url(../img/)
+.tercer-section h4{
+ font-family:Consolas;
+    font-size: 20px;
 }
+.tercer-section p{
+    font-size: 16px;
+}
+/*---------------------------mi---cuarta section----*/
+.container-cuarta{
+    text-align: center;
+    padding:100px;
+ background-image: url(../img/cubes.png);
+    font-size: 40px;
+    
+}
+/*-----------------------------------mi-----quinta.......*/
+
+.container-quinto img{
+    position: relative;
+    width: 830px;
+      
+}
+.form-control {
+    width:350px; 
+    height:50px; 
+}
+.col-md-6{
+    width: 370px;
+   position: relative;  
+}
+
+
+
+
 

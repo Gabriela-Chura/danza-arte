@@ -1,1 +1,63 @@
-/* Inserta tu codigo aqui */
+
+/*---------------------------cabesa---*/
+header {
+    color:#224E88;
+    text-align: center;
+}
+
+.lista-menu li{
+    font-size:18px;
+    margin: 15px;
+    margin-right: 100px;
+    list-style: none;
+    display: inline-block;
+
+}
+.lista-menu a{
+    
+    text-decoration: none;
+    
+}
+/*-------------------------------mi primera section -----*/
+.blog{
+    background-color:#F2F2F2; 
+}
+
+.blog img{
+     width: 80%;
+    height:260px ;
+    margin-left:85px; 
+    margin-bottom: 40px;
+}
+.blog .col-md-8{
+    padding: 17px;
+    font-size: 18px;
+    background-color: #CECED4;
+}
+
+.blog h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px;
+}
+.blog h4 {
+    font-size: 25px;
+    font-family:montserrat;
+}
+.blog span{
+    color:#A6A4A6;
+    padding: 4px;
+    font-family: Gabriola;
+}
+.blog button{
+    
+    width: 200px;
+   padding: 10px;
+    border-radius: 8px;
+    background: #224E88;
+    border: none;
+    color: white;
+    
+}
+
+
