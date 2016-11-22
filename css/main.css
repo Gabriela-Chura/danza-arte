@@ -1,37 +1,8 @@
 /* Inserta tu codigo aqui */
 
-*{
-    outline: 1px solid rgba(255,0,0,0.3)
-} 
-/* HEADER------------------------------------------------- */
-
-.menu .row h1 a {
-    text-decoration: none;
-    color: black;
-}
-
-.menu {
-    
-    background-color:#FFFFFF;
-    color: #333;
-    text-align: center;
-    
-}
 
 
-.list-menu a {
 
-    list-style: none;
-    text-decoration: none;
-    color: black;   
-}
-
-.list-menu li{
-    display: inline-block;
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    margin: 20px;
-}
 
 /* FONDO------------------------------------------------ */
 
@@ -56,14 +27,7 @@
 }
 
 
-button {   
 
-     font-size:12px;
-     color:white;
-     background:#1E2037;
-     border:0px;
-     
-}
 
 
 /* FRASES------------------------------------------------ */
@@ -159,61 +123,4 @@ button {
 
     
 
-/* Formulario------------------------------------------------ */
-
-
-.contactenos{
-    background-image: url(../img/shoes_1.jpg);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: right;
-    width: 100%;
-    height: 500px;
-    padding: 50px;
-}
-
-
-.contactenos input{
-    width: 100%;
-    padding: 8px 0px 8px 30px;
-    margin: 8px 0px;
-    
-}
-
-
-.contactenos i{
-    color: black;
-    position: relative;
-   
-}
-
-.contactenos textarea{
-   padding: 8px 0px 8px 30px;}
-
-.padre span{
-    position: absolute;
-    top: 165px;
-    left: 30px;
-        
-}
-
-.abuelo span{
-    position: absolute;
-    top: 120px;
-    left: 30px;
-}
-
-.hijo span{
-    position: absolute;
-    top: 80px;
-    left: 30px;
-}
-
-/* FINAL------------------------------------------------ */
-
-footer{
-    background-color: #1E2037;
-    color: gainsboro;
-    padding: 25px;
-}
 
